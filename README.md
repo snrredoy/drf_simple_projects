@@ -34,5 +34,4 @@ This project demonstrates how to build a password reset system using Django Rest
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/password-reset-drf.git
-   cd password-reset-drf
+   git clone https://github.com/snrredoy/drf_simple_projects/tree/main/reset%20password
