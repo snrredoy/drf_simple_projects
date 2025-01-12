@@ -1,4 +1,5 @@
-# Django Rest Framework (DRF) Project: Password Reset System
+# Django Rest Framework (DRF)
+# Project 1: Password Reset System
 
 This project demonstrates how to build a password reset system using Django Rest Framework (DRF). It incorporates user authentication, JWT token-based authorization, and email OTP verification for secure password reset functionality.
 
