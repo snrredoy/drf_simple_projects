@@ -1,40 +1,37 @@
-# Effective DRF Project: Password Reset Implementation
+# Django Rest Framework (DRF) Project: Password Reset System
 
-This project is a simple yet effective Django REST Framework (DRF) project that demonstrates how to implement a password reset feature. It includes essential authentication and authorization tools, such as JWT token authentication, email OTP verification, and password reset functionality.
+This project demonstrates how to build a password reset system using Django Rest Framework (DRF). It incorporates user authentication, JWT token-based authorization, and email OTP verification for secure password reset functionality.
 
 ## Features
 
-- **Django Built-in User Model**: Use Django's built-in user management for handling authentication and registration.
-- **Sign In and Sign Up**: Secure user sign-in and sign-up functionality.
-- **JWT Token Authentication**: Uses JSON Web Token (JWT) for authentication.
-- **OTP to Email**: Sends One-Time Password (OTP) to the user's email for verification during the password reset process.
-- **Password Reset**: Allows users to securely reset their passwords through OTP verification.
+- **Django Built-in User Model**
+  - Utilizes the default Django user model for authentication.
 
-## Project Structure
+- **Signup and Signin**
+  - Provides endpoints to allow users to register and log in.
 
-1. **User Authentication & Management**
-   - Django Built-in User
-   - Sign In & Sign Up Endpoints
-   - JWT Authentication for secure access
+- **JWT Token Authentication**
+  - Implements JSON Web Token (JWT) for secure authentication and authorization.
 
-2. **Password Reset**
-   - Generate and send OTP to the user's email
-   - Verify OTP and reset the password securely
+- **Send OTP to Email**
+  - Sends a One-Time Password (OTP) to the user's registered email for verification.
 
-## Installation
+- **Password Reset**
+  - Allows users to reset their passwords by verifying the OTP sent to their email.
+
+## Getting Started
 
 ### Prerequisites
 
-Make sure you have the following installed:
 - Python 3.x
-- Django
-- Django REST Framework
-- JWT Authentication libraries (e.g., `djangorestframework-simplejwt`)
-- Email service (for sending OTP via email)
+- Django 3.x or higher
+- Django Rest Framework (DRF)
+- JWT Authentication Library (`djangorestframework-simplejwt`)
+- Email backend configuration (e.g., Gmail, SMTP)
 
-### Steps to Install
+### Installation
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/effective-drf-password-reset.git
-
+   git clone https://github.com/yourusername/password-reset-drf.git
+   cd password-reset-drf
